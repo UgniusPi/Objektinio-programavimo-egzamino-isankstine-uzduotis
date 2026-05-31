@@ -1,0 +1,26 @@
+var NAVTREEINDEX0 =
+{
+"files.html":[0,0],
+"globals.html":[0,1,0],
+"globals_func.html":[0,1,1],
+"index.html":[],
+"main_8cpp.html":[0,0,0],
+"main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[0,0,0,0],
+"main_8cpp_source.html":[0,0,0],
+"pages.html":[],
+"text__utils_8cpp.html":[0,0,1],
+"text__utils_8cpp.html#a960fa953cc97c510bd53ad68b1b1c202":[0,0,1,0],
+"text__utils_8cpp_source.html":[0,0,1],
+"text__utils_8h.html":[0,0,2],
+"text__utils_8h.html#a52e29009c6389ea24b647cc796703180":[0,0,2,0],
+"text__utils_8h_source.html":[0,0,2],
+"url_8cpp.html":[0,0,3],
+"url_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[0,0,3,0],
+"url_8cpp_source.html":[0,0,3],
+"url__utils_8cpp.html":[0,0,4],
+"url__utils_8cpp.html#a28384c3f6d74959a2fa9a5a758f4dfa8":[0,0,4,0],
+"url__utils_8cpp_source.html":[0,0,4],
+"url__utils_8h.html":[0,0,5],
+"url__utils_8h.html#a4b3c0f5786626d80949f7621973a32c4":[0,0,5,0],
+"url__utils_8h_source.html":[0,0,5]
+};

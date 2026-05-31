@@ -1,0 +1,93 @@
+\doxysection{url.\+cpp File Reference}
+\hypertarget{url_8cpp}{}\label{url_8cpp}\index{url.cpp@{url.cpp}}
+
+
+Ieško URL adresų faile {\ttfamily url\+\_\+tekstas.\+txt} ir rašo rezultatus į {\ttfamily url\+\_\+adresai.\+txt}.  
+
+
+{\ttfamily \+\#include $<$iostream$>$}\newline
+{\ttfamily \+\#include $<$fstream$>$}\newline
+{\ttfamily \+\#include $<$string$>$}\newline
+{\ttfamily \+\#include $<$iterator$>$}\newline
+{\ttfamily \+\#include "{}url\+\_\+utils.\+h"{}}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \doxymbox{\hyperlink{url_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em Programos įėjimo taškas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ieško URL adresų faile {\ttfamily url\+\_\+tekstas.\+txt} ir rašo rezultatus į {\ttfamily url\+\_\+adresai.\+txt}. 
+
+
+
+Definition in file \doxymbox{\hyperlink{url_8cpp_source}{url.\+cpp}}.
+
+
+
+\label{url_8cpp_doc-func-members}
+\Hypertarget{url_8cpp_doc-func-members}
+\doxysubsection{Function Documentation}
+\Hypertarget{url_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\index{url.cpp@{url.cpp}!main@{main}}
+\index{main@{main}!url.cpp@{url.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily \label{url_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+int main (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Programos įėjimo taškas. 
+
+\begin{DoxyReturn}{Returns}
+0 jei sėkmingai, kitoks skaičius jei įvyko klaida. 
+\end{DoxyReturn}
+
+
+Definition at line \doxymbox{\hyperlink{url_8cpp_source_l00019}{19}} of file \doxymbox{\hyperlink{url_8cpp_source}{url.\+cpp}}.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00020\ \{}
+\DoxyCodeLine{00021\ \ \ \ \ ifstream\ inFile(\textcolor{stringliteral}{"{}url\_tekstas.txt"{}});}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordflow}{if}\ (!inFile)}
+\DoxyCodeLine{00024\ \ \ \ \ \{}
+\DoxyCodeLine{00025\ \ \ \ \ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}Nepavyko\ atidaryti\ failo!"{}}\ <<\ endl;}
+\DoxyCodeLine{00026\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ 1;}
+\DoxyCodeLine{00027\ \ \ \ \ \}}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{comment}{//\ Perskaitome\ visą\ failą}}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{string}\ text((istreambuf\_iterator<char>(inFile)),\ istreambuf\_iterator<char>());}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ \ \ \ \ inFile.close();}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{comment}{//\ Randame\ URL'us\ naudojant\ išorinę\ funkciją}}
+\DoxyCodeLine{00035\ \ \ \ \ vector<string>\ urls\ =\ \doxymbox{\hyperlink{url__utils_8cpp_a28384c3f6d74959a2fa9a5a758f4dfa8}{extractUrls}}(text);}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00037\ \ \ \ \ ofstream\ outFile(\textcolor{stringliteral}{"{}url\_adresai.txt"{}});}
+\DoxyCodeLine{00038\ }
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keywordflow}{if}\ (!outFile)}
+\DoxyCodeLine{00040\ \ \ \ \ \{}
+\DoxyCodeLine{00041\ \ \ \ \ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}Nepavyko\ sukurti\ rezultatu\ failo!"{}}\ <<\ endl;}
+\DoxyCodeLine{00042\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ 1;}
+\DoxyCodeLine{00043\ \ \ \ \ \}}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00045\ \ \ \ \ outFile\ <<\ \textcolor{stringliteral}{"{}Rasti\ URL\ adresai\(\backslash\)n"{}};}
+\DoxyCodeLine{00046\ \ \ \ \ outFile\ <<\ \textcolor{stringliteral}{"{}=================\(\backslash\)n\(\backslash\)n"{}};}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keywordtype}{int}\ nr\ =\ 1;}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00050\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keyword}{const}\ \textcolor{keyword}{auto}\&\ u\ :\ urls)}
+\DoxyCodeLine{00051\ \ \ \ \ \{}
+\DoxyCodeLine{00052\ \ \ \ \ \ \ \ \ outFile\ <<\ nr++\ <<\ \textcolor{stringliteral}{"{}.\ "{}}\ <<\ u\ <<\ endl;}
+\DoxyCodeLine{00053\ \ \ \ \ \}}
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00055\ \ \ \ \ outFile.close();}
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00057\ \ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}URL\ adresai\ issaugoti\ faile\ url\_adresai.txt"{}}\ <<\ endl;}
+\DoxyCodeLine{00058\ }
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{00060\ \}}
+
+\end{DoxyCode}

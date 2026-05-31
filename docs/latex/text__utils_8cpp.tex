@@ -1,0 +1,67 @@
+\doxysection{text\+\_\+utils.\+cpp File Reference}
+\hypertarget{text__utils_8cpp}{}\label{text__utils_8cpp}\index{text\_utils.cpp@{text\_utils.cpp}}
+
+
+Implementacija {\ttfamily \doxylink{text__utils_8cpp_a960fa953cc97c510bd53ad68b1b1c202}{normalize\+Word}} funkcijos.  
+
+
+{\ttfamily \+\#include "{}text\+\_\+utils.\+h"{}}\newline
+{\ttfamily \+\#include $<$cctype$>$}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+string \doxymbox{\hyperlink{text__utils_8cpp_a960fa953cc97c510bd53ad68b1b1c202}{normalize\+Word}} (const string \&word)
+\begin{DoxyCompactList}\small\item\em Pašalina skyrybos ženklus ir paverčia žodį mažosiomis raidėmis. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementacija {\ttfamily \doxylink{text__utils_8cpp_a960fa953cc97c510bd53ad68b1b1c202}{normalize\+Word}} funkcijos. 
+
+
+
+Definition in file \doxymbox{\hyperlink{text__utils_8cpp_source}{text\+\_\+utils.\+cpp}}.
+
+
+
+\label{text__utils_8cpp_doc-func-members}
+\Hypertarget{text__utils_8cpp_doc-func-members}
+\doxysubsection{Function Documentation}
+\Hypertarget{text__utils_8cpp_a960fa953cc97c510bd53ad68b1b1c202}\index{text\_utils.cpp@{text\_utils.cpp}!normalizeWord@{normalizeWord}}
+\index{normalizeWord@{normalizeWord}!text\_utils.cpp@{text\_utils.cpp}}
+\doxysubsubsection{\texorpdfstring{normalizeWord()}{normalizeWord()}}
+{\footnotesize\ttfamily \label{text__utils_8cpp_a960fa953cc97c510bd53ad68b1b1c202} 
+string normalize\+Word (\begin{DoxyParamCaption}\item[{const string \&}]{word}{}\end{DoxyParamCaption})}
+
+
+
+Pašalina skyrybos ženklus ir paverčia žodį mažosiomis raidėmis. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em word} & Įvestas žodis. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Normalizuotas žodis (tik raides ir skaitmenis, mažosiomis). 
+\end{DoxyReturn}
+
+
+Definition at line \doxymbox{\hyperlink{text__utils_8cpp_source_l00016}{16}} of file \doxymbox{\hyperlink{text__utils_8cpp_source}{text\+\_\+utils.\+cpp}}.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00017\ \{}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{string}\ result;}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordflow}{for}\ (\textcolor{keywordtype}{char}\ c\ :\ word)}
+\DoxyCodeLine{00021\ \ \ \ \ \{}
+\DoxyCodeLine{00022\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (isalnum(\textcolor{keyword}{static\_cast<}\textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{char}\textcolor{keyword}{>}(c)))}
+\DoxyCodeLine{00023\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{00024\ \ \ \ \ \ \ \ \ \ \ \ \ result\ +=\ tolower(\textcolor{keyword}{static\_cast<}\textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{char}\textcolor{keyword}{>}(c));}
+\DoxyCodeLine{00025\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{00026\ \ \ \ \ \}}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keywordflow}{return}\ result;}
+\DoxyCodeLine{00029\ \}}
+
+\end{DoxyCode}
