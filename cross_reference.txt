@@ -1,0 +1,164 @@
+Cross-reference lentele
+=======================
+
+1970 (2 kartai): 6, 7
+1979 (2 kartai): 11
+1980 (5 kartai): 1, 11, 12, 13
+3d (2 kartai): 1, 8
+a (32 kartai): 1, 3, 4, 6, 7, 8, 9, 11, 12, 13, 14
+after (5 kartai): 3, 8, 11, 13
+although (2 kartai): 5, 8
+among (2 kartai): 10, 13
+an (4 kartai): 3, 4, 7, 11
+and (48 kartai): 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+applied (3 kartai): 7, 8, 9
+april (2 kartai): 6, 7
+architecture (2 kartai): 1, 8
+around (2 kartai): 1, 9
+arrangement (3 kartai): 2, 11, 14
+as (7 kartai): 1, 8, 12, 13, 14
+at (6 kartai): 7, 8, 11, 12
+be (5 kartai): 1, 4, 7, 13
+became (3 kartai): 1, 8
+been (3 kartai): 1, 2
+being (2 kartai): 10, 14
+bestselling (2 kartai): 1
+blue (4 kartai): 2, 14
+budapest (2 kartai): 8, 10
+businessman (2 kartai): 1, 11
+but (2 kartai): 12, 13
+by (8 kartai): 1, 2, 6, 10, 11
+centre (2 kartai): 14
+colour (2 kartai): 4, 14
+colours (5 kartai): 2, 4, 14
+combination (2 kartai): 1, 9
+could (2 kartai): 8, 13
+covered (2 kartai): 2, 9
+cube (28 kartai): 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14
+cubes (5 kartai): 1, 2, 8, 9, 13
+debut (2 kartai): 12, 13
+decided (2 kartai): 13
+design (4 kartai): 8, 10
+did (2 kartai): 8, 14
+each (5 kartai): 2, 4, 8
+early (4 kartai): 2, 9, 12, 14
+easily (2 kartai): 10, 11
+ern (3 kartai): 1, 8, 11
+face (2 kartai): 2, 4
+fair (2 kartai): 11
+fairs (2 kartai): 12
+february (2 kartai): 11, 12
+first (3 kartai): 8, 10, 13
+for (12 kartai): 1, 4, 5, 6, 7, 8, 9, 12, 14
+founder (2 kartai): 1, 11
+from (3 kartai): 2, 10, 13
+game (2 kartai): 1, 7
+granted (2 kartai): 6, 9
+green (2 kartai): 2
+had (3 kartai): 1, 8, 14
+has (4 kartai): 2, 4, 5
+have (2 kartai): 2, 14
+he (6 kartai): 7, 8
+held (2 kartai): 6, 10
+his (11 kartai): 6, 7, 8, 9
+hungarian (4 kartai): 1, 9, 11
+hungary (2 kartai): 9, 13
+ideal (4 kartai): 1, 11, 13
+immediately (2 kartai): 8, 11
+in (37 kartai): 1, 2, 3, 5, 6, 8, 9, 10, 11, 12, 13, 14
+including (2 kartai): 13, 14
+independently (2 kartai): 4, 8
+initially (2 kartai): 8, 13
+interlocking (2 kartai): 9, 10
+internal (2 kartai): 4, 10
+international (4 kartai): 5, 11, 12, 13
+invented (3 kartai): 1, 6
+inventor (3 kartai): 11, 13
+is (3 kartai): 1, 5, 8
+it (14 kartai): 1, 5, 6, 8, 10, 11, 12, 13
+its (10 kartai): 5, 8, 11, 12, 13, 14
+january (4 kartai): 1, 7, 9, 12
+laczi (2 kartai): 1, 11
+larry (2 kartai): 6, 10
+later (4 kartai): 2, 8, 9
+layer (2 kartai): 4, 8
+magic (6 kartai): 1, 9, 10, 11
+magnets (2 kartai): 6, 10
+making (2 kartai): 1, 10
+manufacturing (2 kartai): 9, 13
+many (2 kartai): 5, 8
+mechanical (3 kartai): 8, 9, 13
+mechanism (2 kartai): 4, 8
+most (2 kartai): 1, 14
+nichols (3 kartai): 6, 10
+not (2 kartai): 8, 14
+nuremberg (2 kartai): 11, 12
+object (2 kartai): 9, 14
+of (34 kartai): 1, 2, 4, 5, 7, 8, 9, 10, 12, 13, 14
+on (13 kartai): 2, 6, 7, 8, 9, 13, 14
+one (3 kartai): 1, 2, 4
+only (2 kartai): 4, 8
+opposite (3 kartai): 2
+orange (2 kartai): 2
+original (2 kartai): 2, 8
+other (2 kartai): 4, 8
+packaging (2 kartai): 13, 14
+patent (6 kartai): 6, 7, 9
+pieces (2 kartai): 6, 10
+plastic (3 kartai): 2, 10, 14
+popular (2 kartai): 1, 14
+potential (2 kartai): 8, 11
+produced (2 kartai): 10, 13
+puzzle (14 kartai): 1, 4, 6, 7, 8, 9, 10, 12, 14
+puzzles (3 kartai): 1, 4, 5
+recognised (3 kartai): 1, 5, 11
+red (3 kartai): 2
+released (2 kartai): 1, 10
+repeated (2 kartai): 10
+rubik (9 kartai): 1, 6, 8, 9, 11
+rubiks (11 kartai): 1, 2, 3, 5, 10, 11, 13
+safety (2 kartai): 13
+seven (3 kartai): 1, 11
+similar (2 kartai): 4, 5
+since (3 kartai): 2, 5, 14
+six (2 kartai): 2
+small (3 kartai): 8, 10, 14
+sold (2 kartai): 1
+solve (2 kartai): 3, 8
+solved (2 kartai): 4, 14
+some (2 kartai): 2, 14
+state (2 kartai): 8, 14
+still (2 kartai): 5, 8
+students (2 kartai): 8, 10
+that (8 kartai): 2, 8, 9, 10, 11, 13, 14
+the (76 kartai): 1, 2, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14
+then (3 kartai): 1, 8, 13
+these (3 kartai): 12, 13, 14
+this (2 kartai): 8, 9
+threedimensional (2 kartai): 8, 9
+tibor (2 kartai): 1, 11
+time (2 kartai): 8
+to (32 kartai): 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13
+together (2 kartai): 6, 10
+tom (2 kartai): 1, 11
+took (2 kartai): 8, 11
+towns (3 kartai): 1, 11
+toy (8 kartai): 1, 9, 10, 11, 12, 13
+two (2 kartai): 6, 7
+uk (2 kartai): 1, 7
+us (3 kartai): 1, 6, 9
+used (4 kartai): 5, 7, 10, 14
+variations (2 kartai): 14
+various (2 kartai): 4, 5
+versions (2 kartai): 2, 14
+was (17 kartai): 1, 2, 6, 8, 10, 11, 12, 13
+were (3 kartai): 10, 13, 14
+western (3 kartai): 13, 14
+where (3 kartai): 8, 10, 12
+which (3 kartai): 8, 14
+white (4 kartai): 2, 14
+widely (2 kartai): 5, 8
+with (12 kartai): 2, 4, 6, 7, 8, 10, 11, 12, 13
+world (2 kartai): 5
+year (2 kartai): 1, 9
+yellow (3 kartai): 2, 14
