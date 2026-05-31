@@ -4,24 +4,9 @@
 #include <map>
 #include <set>
 #include <cctype>
+#include "text_utils.h"
 
 using namespace std;
-
-// Pašalina skyrybos ženklus ir paverčia mažosiomis raidėmis
-string normalizeWord(const string& word)
-{
-    string result;
-
-    for (char c : word)
-    {
-        if (isalnum(static_cast<unsigned char>(c)))
-        {
-            result += tolower(static_cast<unsigned char>(c));
-        }
-    }
-
-    return result;
-}
 
 int main()
 {

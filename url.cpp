@@ -1,7 +1,9 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <regex>
+#include <iterator>
+
+#include "url_utils.h"
 
 using namespace std;
 
@@ -16,24 +18,12 @@ int main()
     }
 
     // Perskaitome visą failą
-    string text(
-        (istreambuf_iterator<char>(inFile)),
-        istreambuf_iterator<char>()
-    );
+    string text((istreambuf_iterator<char>(inFile)), istreambuf_iterator<char>());
 
     inFile.close();
 
-    /*
-        Aptinka:
-        https://www.vu.lt
-        https://vu.lt
-        http://vu.lt
-        www.vu.lt
-        vu.lt
-    */
-    regex urlRegex(
-        R"((https?:\/\/(?:www\.)?[A-Za-z0-9\-]+\.[A-Za-z]{2,}(?:\/[^\s]*)?)|(www\.[A-Za-z0-9\-]+\.[A-Za-z]{2,}(?:\/[^\s]*)?)|([A-Za-z0-9\-]+\.[A-Za-z]{2,}(?:\/[^\s]*)?))"
-    );
+    // Randame URL'us naudojant išorinę funkciją
+    vector<string> urls = extractUrls(text);
 
     ofstream outFile("url_adresai.txt");
 
@@ -46,16 +36,11 @@ int main()
     outFile << "Rasti URL adresai\n";
     outFile << "=================\n\n";
 
-    sregex_iterator begin(text.begin(), text.end(), urlRegex);
-    sregex_iterator end;
-
     int nr = 1;
 
-    for (sregex_iterator i = begin; i != end; ++i)
+    for (const auto& u : urls)
     {
-        outFile << nr++ << ". "
-                << i->str()
-                << endl;
+        outFile << nr++ << ". " << u << endl;
     }
 
     outFile.close();
