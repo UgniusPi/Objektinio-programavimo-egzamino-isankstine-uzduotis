@@ -6,8 +6,20 @@
 #include <cctype>
 #include "text_utils.h"
 
+/**
+ * @file main.cpp
+ * @brief Skaityti `tekstas.txt`, normalizuoti ir surašyti pasikartojančius žodžius bei jų eilutes.
+ *
+ * Programa perskaito `tekstas.txt`, suskaičiuoja žodžius ir išsaugo rezultatus į
+ * `pasikartojimai.txt` ir `cross_reference.txt`.
+ */
+
 using namespace std;
 
+/**
+ * @brief Programos įėjimo taškas.
+ * @return 0 jei sėkmingai, kitoks skaičius jei įvyko klaida.
+ */
 int main()
 {
     ifstream inFile("tekstas.txt");

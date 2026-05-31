@@ -5,8 +5,17 @@
 
 #include "url_utils.h"
 
+/**
+ * @file url.cpp
+ * @brief Ieško URL adresų faile `url_tekstas.txt` ir rašo rezultatus į `url_adresai.txt`.
+ */
+
 using namespace std;
 
+/**
+ * @brief Programos įėjimo taškas.
+ * @return 0 jei sėkmingai, kitoks skaičius jei įvyko klaida.
+ */
 int main()
 {
     ifstream inFile("url_tekstas.txt");
